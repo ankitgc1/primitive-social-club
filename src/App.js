@@ -90,7 +90,7 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#About">Story</Nav.Link>
+              <Nav.Link href="#About">Feature</Nav.Link>
               <Nav.Link href="#Faq">Faq</Nav.Link>
               <Nav.Link href="#Roadmap">Roadmap</Nav.Link>
               <Nav.Link href="#Contact">Contact Us</Nav.Link>
@@ -145,7 +145,7 @@ function App() {
 
         <Row className="mt-5 justify-content-center text-center">
           <Col className="d-flex justify-content-center text-center">
-            <div className="tran-box opensea">
+            <div className="opensea">
               <a className="opensealink" 
               rel="noopener noreferrer" target="_blank" href="https://discord.gg/svKtw4vG"
               // onClick={handleClick}
@@ -157,10 +157,10 @@ function App() {
         </Row>
       </Container>
 
-      {/* <Container fluid id="About" className="hero-2">
+      <Container fluid id="About" className="hero-2">
         <Container>
             <div className="justify-content-center text-center">
-                <h1 className="white"><strong>STORY</strong></h1> 
+                <h1 className="white"><strong>FEATURES</strong></h1> 
             </div>
           <Row>
             <Col md={6} className="mt-3 justify-content-center text-center">
@@ -197,34 +197,58 @@ function App() {
                 </Col>
               </Row>
             </Col>
-            <Col className="mt-3 justify-content-center text-center">
-              <div className="mt-5">
+            <Col className="mt-3 justify-content-center">
+              <div className="mt-5  text-center">
                 <h5 className="white">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.                </h5> 
+                Welcome to the home page of Primitive Social Club
+                I would like to thank you for taking the time to visit. I have highlighted a few key things that will make our community successful and progress smoothly
+                </h5> 
               </div>
-              <div className="mt-5">
-                <h5 className="white">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.                </h5> 
-              </div>
-              <div className="mt-5">
-                <h2 className='note'>
-                    NOTE:- WHOEVER CAPTURES THE IMPOSTER WILL BE AWARDED $10,000(USD).
-                </h2>
-              </div>
-              <div className="mt-5">
+              <div className="mt-4">
                 <h3 className='note'>
-                  NOTE:- This is a community project. We will be holding a total of $100,000(USD) giveaways. Join our discord to be a part of the giveaway. 
+                - A play to earn game “Have Developer”
                   </h3>
               </div>
-              <div className="mt-5">
+              <div>
                 <h3 className='note'>
-                  - That's not it. We will introduce staking program. Where you will be able to stake your NFT and will be able to earn $SDN token daily. 
+                  - Staking “Taking Meetings with Contractors already”
                   </h3>
               </div> 
+              <div>
+                <h3 className='note'>
+                  - Merch “Have Contractor just waiting on funding”
+                  </h3>
+              </div> 
+              <div className="mt-4 text-center">
+                <h5 className="white">
+                  The first Phase of the project will have 200 traits 
+                  Funds will immediately be invested back into the community
+                </h5> 
+              </div>
+              <div className="mt-4">
+                <h3 className='note'>
+                - Buying land in Metaverse
+                </h3>
+              </div>
+              <div>
+                <h3 className='note'>
+                  - Investing in our Developers ASAP 
+                </h3>
+              </div> 
+              <div>
+                <h3 className='note'>
+                  - All funding spent will be released to the Community Members for proof
+                </h3>
+              </div> 
+              <div className="mt-4 text-center">
+                <h5 className="white">
+                The Community’s First and Second Phase developments have been fully funded by the founder
+                </h5> 
+              </div>
             </Col>
           </Row>
         </Container>
-      </Container> */}
+      </Container>
 
 
       {/* <Container fluid id="Faq" className="hero-3">
@@ -266,22 +290,29 @@ function App() {
       </Container> */}
 
 
-      {/* <Container fluid id="Roadmap" className="hero-4">
+      <Container fluid id="Roadmap" className="hero-3">
         <Container>
           <Row className="pd-5 mt-5 justify-content-center text-center">
-            <h1 className="white"><strong>SPACEMAP 1.0</strong></h1> 
-            <h3 className="white">
+            <h1 className="white"><strong>PSC ROAD MAP </strong></h1> 
+            {/* <h3 className="white">
               As we value our community and its creativity, our roadmap will be updated according to your comments and ideas.
-            </h3>
+            </h3> */}
           </Row>
           <Row className="mt-5">
             <Col xs={2} md={2} className="justify-content-center text-center">
               <div className="box">
-                <strong className="per">Phase 1</strong>
+                <strong className="per">20%</strong>
               </div>
             </Col>
             <Col>
-              <h4 className="white">- 7000 unique astronauts gets sent for a secret mission and 7 imposters.
+              <h4 className="white">- Establish meaningful internet presence
+              <div className='presence'>
+                <p>• Website </p>
+                <p>• Instagram </p>
+                <p>• Twitter </p>
+                <p>• Discord </p>
+                <p>• Establish organizational roles and responsibilities for Community Transparency  </p>
+              </div>
               </h4>
               <h4 className="white">- GIVEAWAY to discord members.
               </h4>
@@ -290,48 +321,57 @@ function App() {
           <Row className="mt-5">
             <Col xs={2} md={2} className="justify-content-center text-center">
               <div className="box">
-                <strong className="per">Phase 2</strong>
+                <strong className="per">40%</strong>
               </div>
             </Col>
             <Col>
-              <h4 className="white"> - Presale / Public Sale Launching
+              <h4 className="white"> - Weekly Feature Drops of NFT artwork 
               </h4>
-              <h4 className="white"> - GIVEAWAY MATIC + NFT’s to discord members
+              <h4 className="white"> - Announcement of NFT Mint Date TBD
               </h4>
-              <h4 className="white"> - Listing on all MATIC NFT marketplaces
+              <h4 className="white"> - Active community members may have opportunity for Moderator positions
               </h4>
             </Col>
           </Row>
           <Row className="mt-5">
             <Col xs={2} md={2} className="justify-content-center text-center">
               <div className="box">
-                <strong className="per">Phase 3</strong>
+                <strong className="per">80%</strong>
               </div>
             </Col>
             <Col>
-              <h4 className="white">- Spacedrop a companion, Spacepup incoming!
+              <h4 className="white">-  Once the 75% sold plateau is achieved, holders will be eligible to receive some free merchandise
               </h4>
-              <h4 className="white">- Setup a community grant.
+              <h4 className="white">- PSC will invest in the Metaverse; all holdings will be made public
               </h4>
             </Col>
           </Row>
           <Row className="mt-5">
             <Col xs={2} md={2} className="justify-content-center text-center">
               <div className="box">
-                <strong className="per">Phase 4</strong>
+                <strong className="per">100%</strong>
               </div>
             </Col>
             <Col>
-              <h4 className="white">- Bring back all the space dude home.
+              <h4 className="white">- Utilities for phase 2 will be announced
+                <div className='presence'>
+                  <p>• Tokenomics </p>
+                  <p>• Game Development </p>
+                </div>
               </h4>
-              <h4 className="white">- We reveal Spacemap 2.0 🚀
+              <h4 className="white">- A link will be provided on the website to purchase additional merchandise
+                <div className='presence'>
+                  <p>• Prices will be discounted to community members </p>
+                </div>
+              </h4>
+              <h4 className="white">-  Founder will be going public after we reach this milestone
               </h4>
             </Col>
           </Row>
           <br>
           </br>
         </Container>
-      </Container> */}
+      </Container>
 
 
 
@@ -373,6 +413,17 @@ function App() {
                 height="50"
               />
             </a>
+            </Col>
+          </Row>
+          <Row className="mt-5 justify-content-center text-center">
+            <Col className="d-flex justify-content-center text-center">
+              <div className="opensea">
+                <a className="opensealink" 
+                rel="noopener noreferrer" target="_blank" href="https://discord.gg/svKtw4vG"
+                >
+                  Join Discord
+                </a>
+              </div>
             </Col>
           </Row>
         </Container>
